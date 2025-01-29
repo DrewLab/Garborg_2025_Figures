@@ -109,7 +109,7 @@ plotEMGMovement_FS(combinedMovementDataBrain_211216_002,combinedMovementDataSkul
 
 plotEMGXCorr_FS(combinedMovementDataBrain_211216_002,combinedMovementDataSkull_211216_002)
 
-%% figure 3g
+%% figure 3g-h
 
 [ETATimeData,ETADispData] = plotEMGTriggeredAvg_FS;
 
@@ -2000,7 +2000,7 @@ for n = stdWindowSize+1:length(meanY)
     end 
 end
 
-h(9) = figure('Color','White','Name','Figure 3g','NumberTitle','off');
+h(9) = figure('Color','White','Name','Figure 3g-h','NumberTitle','off');
 subplot(2,2,1)
 maxMeanVal = max(abs([meanX meanY cIntFillPtsX cIntFillPtsY]));
 f = fill([3 0 0 3],[2.9 2.9 -2.9 -2.9],[.9 .9 .9],'Linestyle','none','FaceAlpha',0.5);
