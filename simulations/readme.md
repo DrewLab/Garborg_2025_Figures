@@ -1,6 +1,6 @@
 Computations were carried out using COMSOL Multiphysics (www.comsol.com), Version 6.2.
 
-# Folder "Main COMSOL Files:"
+# Folder "Main COMSOL Files"
 ---------------------------
 	This folder contains three COMSOL Multiphysics files:
 		* main_Fig6_ExtendedDataFig7_SuppFigs7_and_12.mph: Use this file to generate the data reported in Figure 6, Extended Data Figure 7, and Supplementary Figures 7 and 12.
@@ -12,7 +12,7 @@ Computations were carried out using COMSOL Multiphysics (www.comsol.com), Versio
 NOTE ON Extended Data Figure 10: The data in this plot are of the same type as those in Figure 6e. The data in question can be generated using the file "main_Fig6_ExtendedDataFig7_SuppFigs7_and_12.mph" and setting the parameter "brn.ks" to the values indicated in the figure.
 
 
-# Folder "MeshSensitivityStudyFiles:"
+# Folder "MeshSensitivityStudyFiles"
 -----------------------------------
 	This folder contain three subfolders:
 		- COMSOLFile
@@ -48,6 +48,6 @@ NOTE ON Extended Data Figure 10: The data in this plot are of the same type as t
 			
 
 
-# NOTE ON MESHES in the COMSOL Multiphysics files:
+# NOTE ON MESHES in the COMSOL Multiphysics files
 ------------------------------------------------
 The COMSOL Multiphysics files were created using version 6.2. Opening these files with newer versions of COMSOL Multiphysics and then rebuilding the meshes according to the steps that were originally used to generate said meshes, may introduce subtle changes in the meshes. To prevent such an occurrence, i.e., to preserve the meshes in the form used in our calculations, the meshes the COMSOL Multiphysics files have been locked.
