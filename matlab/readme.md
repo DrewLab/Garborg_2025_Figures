@@ -1,12 +1,40 @@
-# How to generate experimental figures
+# 📊 How to Generate Experimental Figures
 
-All figures (option 1):
-1. Download folder titled "experimental" and add it to your path in matlab
-2. Open file "figureScript.m"
-3. Select "Run" to generate all figures for publication made with matlab
+This guide explains how to reproduce the publication figures using MATLAB.
 
-Select figures (option 2):
-1. Download folder titled "experimental" and add it to your path in matlab
-2. Open file "figureScript.m"
-3. Run second section "Process data sets" individually to generate all data in the workspace
-4. Run any individual section prior to "SUBFUNCTIONS" to generate only the plots for a specific figure, specified in the section title
+---
+
+## 🔹 Option 1 — Generate All Figures
+
+Use this option to generate **all figures** at once.
+
+### Steps
+
+1. Download the folder titled `experimental`.
+2. Add the `experimental` folder to your MATLAB path.
+3. Open the file `figureScript.m`.
+4. Click **Run** to generate all publication figures.
+
+---
+
+## 🔹 Option 2 — Generate Selected Figures
+
+Use this option to generate **specific figures only**.
+
+### Steps
+
+1. Download the folder titled `experimental`.
+2. Add the `experimental` folder to your MATLAB path.
+3. Open the file `figureScript.m`.
+4. Run the section titled **Process data sets** to load and process all data into the workspace.
+5. Run any individual section **before** the `SUBFUNCTIONS` section to generate the corresponding figure(s).  
+   - Each section title specifies which figure it produces.
+
+---
+
+## ✅ Notes
+
+- Ensure all required MATLAB toolboxes are installed.
+- Make sure the `experimental` folder is correctly added to your MATLAB path before running any sections.
+
+---
